@@ -9,6 +9,8 @@ const UseStateGotcha = () => {
     // console.log('clicked the button');
     //   setValue(value + 1);
     // }, 3000);
+
+    // using function and returning the new value works
     setTimeout(() => {
       console.log('clicked the button')
       setValue(currentState => {
